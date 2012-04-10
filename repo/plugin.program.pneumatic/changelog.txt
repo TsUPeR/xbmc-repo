@@ -1,3 +1,9 @@
+[B]Pneumatic 0.2.5[/B]
+- NoneType in nf_to_bottom list to SAB
+- NoneType error due to timing with SAB
+- Option to cache nzb
+- Dont crash when tvrage is down
+
 [B]Pneumatic 0.2.4[/B]
 - Enhanced local nzb browsing. Support for multiple folders (context menu to add and remove)
 - Bugfix for a special case where SAB reports 0 byte file size

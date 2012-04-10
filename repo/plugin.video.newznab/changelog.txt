@@ -1,3 +1,7 @@
+[B]Newznab 0.2.3[/B]
+- Fix crash on first init
+- Remove import function
+
 [B]Newznab 0.2.2[/B]
 - Updated to support the new Pneumatic release. Moved Local and Incomplete to top node.
 
