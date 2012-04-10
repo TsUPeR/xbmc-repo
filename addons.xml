@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+    <addon id="repository.popey" name="Popeye's Repo" version="1.0.0" provider-name="Popeye">
+        <extension point="xbmc.addon.repository" name="Popeye's Repo">
+            <info compressed="false">https://github.com/TsUPeR/xbmc-repo/raw/master/addons.xml</info>
+            <checksum>https://github.com/TsUPeR/xbmc-repo/raw/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://github.com/TsUPeR/xbmc-repo/raw/master/repo/</datadir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Popeye's repository</summary>
+            <description>A reposistory of Popeye's addons for XBMC including Pneumatic and Newznab</description>
+            <platform>all</platform>
+        </extension>
+    </addon>
+    <addon id="plugin.program.pneumatic"
+           name="Pneumatic"
+           version="0.2.4"
+           provider-name="Popeye">
+      <requires>
+        <import addon="xbmc.python" version="2.0"/>
+      </requires>
+      <extension point="xbmc.python.pluginsource"
+                library="default.py">
+            <provides>executable</provides>
+      </extension>
+      <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>Pneumatic</summary>
+        <description>Pneumatic is a NZB engine for XBMC.</description>
+        <disclaimer></disclaimer>
+      </extension>
+    </addon>
+    <addon id="plugin.video.newznab"
+           name="Newznab"
+           version="0.2.2"
+           provider-name="Popeye">
+      <requires>
+        <import addon="xbmc.python" version="2.0"/>
+        <import addon="plugin.program.pneumatic" version="0.2.0"/>
+      </requires>
+      <extension point="xbmc.python.pluginsource"
+                library="default.py">
+            <provides>video</provides>
+      </extension>
+      <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>Newznab</summary>
+        <description>Browse and stream from all newznab.com compatible sites</description>
+        <disclaimer>Requires the Pneumatic add-on and SABnzbd</disclaimer>
+      </extension>
+    </addon>
+</addons>
