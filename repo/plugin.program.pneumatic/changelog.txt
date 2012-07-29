@@ -1,3 +1,10 @@
+[B]Pneumatic 0.2.6[/B]
+- Switched to PLAYER_CORE_AUTO
+- Added support for s00 s01 ..
+- Removed forgotten notification
+- Allow progress dialog to close or play back can fail
+- Log what incomplete folders gets removed
+
 [B]Pneumatic 0.2.5[/B]
 - NoneType in nf_to_bottom list to SAB
 - NoneType error due to timing with SAB
