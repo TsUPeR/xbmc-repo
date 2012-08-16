@@ -1,4 +1,7 @@
 [B]Pneumatic 0.2.6[/B]
+- Fixed incomplete error
+
+[B]Pneumatic 0.2.6[/B]
 - Switched to PLAYER_CORE_AUTO
 - Added support for s00 s01 ..
 - Removed forgotten notification
