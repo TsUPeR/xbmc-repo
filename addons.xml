@@ -14,7 +14,7 @@
     </addon>
     <addon id="plugin.program.pneumatic"
            name="Pneumatic"
-           version="0.2.8"
+           version="0.2.9"
            provider-name="Popeye">
       <requires>
         <import addon="xbmc.python" version="2.0"/>
