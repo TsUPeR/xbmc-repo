@@ -32,7 +32,7 @@
     </addon>
     <addon id="plugin.video.newznab"
            name="Newznab"
-           version="0.2.3"
+           version="0.2.4"
            provider-name="Popeye">
       <requires>
         <import addon="xbmc.python" version="2.0"/>
