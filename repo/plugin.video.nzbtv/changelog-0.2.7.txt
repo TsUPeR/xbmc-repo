@@ -1,0 +1,10 @@
+[B]NzbTV 0.2.7[/B]
+- Added show and channel favorites selectable 
+  from the context menu
+
+[B]NzbTV 0.2.6[/B]
+- Caching
+- Support for local and remote channels.xml
+
+[B]NzbTV 0.2.5[/B]
+- Re-write by popeye

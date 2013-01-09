@@ -49,4 +49,23 @@
         <disclaimer>Requires the Pneumatic add-on and SABnzbd</disclaimer>
       </extension>
     </addon>
+    <addon id="plugin.video.nzbtv"
+           name="NzbTV"
+           version="0.2.7"
+           provider-name="Popeye, Ckergald">
+      <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="plugin.video.newznab" version="0.2.4"/>
+      </requires>
+      <extension point="xbmc.python.pluginsource"
+                library="default.py">
+            <provides>video</provides>
+      </extension>
+      <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>NzbTV</summary>
+        <description>Browse Newznab sites by TV Networks</description>
+        <disclaimer>Requires the Newznab add-on and SABnzbd</disclaimer>
+      </extension>
+    </addon>
 </addons>
