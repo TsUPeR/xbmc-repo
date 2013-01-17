@@ -70,7 +70,7 @@
     </addon>
     <addon id="plugin.program.sabnzbd"
            name="SABnzbd"
-           version="3.0.1"
+           version="3.0.2"
            provider-name="Popeye">
       <requires>
         <import addon="xbmc.python" version="2.1.0"/>
