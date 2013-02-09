@@ -87,4 +87,20 @@
         <disclaimer></disclaimer>
       </extension>
     </addon>
+    <addon id="script.service.sabnzbd"
+           name="PauseSABnzbdService"
+           version="0.0.1"
+           provider-name="Popeye">
+      <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="plugin.program.sabnzbd" version="3.0.2"/>
+      </requires>
+      <extension point="xbmc.service"
+                 library="default.py" start="startup">
+      </extension>
+      <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Pause or throttle SABnzbd when playing a movie</summary>
+      </extension>
+    </addon>
 </addons>
