@@ -1,0 +1,5 @@
+[B]PauseSABnzbdService 0.0.2[/B]
+- Added option to only act on online sources
+
+[B]PauseSABnzbdService 0.0.1[/B]
+- First release
